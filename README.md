@@ -1,30 +1,19 @@
-# 캐글 스터딩
->캐글 초보자를 위한 커널 필사
+# 캐글 대회 도전하기
+>직접 캐글 노트북 작성해보기
 
 </br>
 
-## 2. 공부내용
 ## `Petals to the Metal - Flower Classification on TPU` competition
 - `petals-imageclassification-1.ipynb` `petals-imageclassification-2.ipynb`
-- 
-
-
-
-</br>
-
-## 3. file 설명
-`train.py` training model, visualization with tensorboard
-
-`test.py` `test_ensemble.py` ensemble to predict
-
-`model.py` `model_test.py` custom CNN model
-
-`dataset.py` image augmentation & custom dataset
-
-`util.py` save & load model
+- 꽃 이미지 데이터셋을 통해 꽃의 종류를 분류하는 대회
+- 사용기술
+CNN, tensorflow, data augmentation, transfer learning(vgg16)
 
 </br>
 
-## 4. 트러블 슈팅
-### 정확도 부족 문제
-- 가중치 초기화, augmentation, resnet 모델에서 핵심 기술인 residual block을 구현하였다.
+## `Spaceship Titanic` competition
+- `spaceshiptitanic-binaryclassification-1.ipynb` `spaceshiptitanic-binaryclassification-2.ipynb`
+- 승객의 정보를 갖고 있는 표 데이터셋을 이용해 어떤 승객이 다른 차원으로 이동했는지 예측하는 대회
+- 사용기술
+scikit-learn, xgboost, lightgbm, random forest, extra tree, catboost,
+target encoding with smoothing, bayesian optimize, stacking
